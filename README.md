@@ -52,7 +52,7 @@ Three different methods are explored: K-Means, K-Prototype, and a combination of
 
 ### Further Line of Thought:
 - The model we employed is not well-suited for comparing numerical values in fields. For instance, the sentence "Salary = 10000" yields embeddings that are more similar to those of the sentence "Salary = 100000" than to the embeddings of "Salary = 11000." This limitation arises because the model excels at comparing text but treats numbers as characters rather than quantities. Consequently, only sentences related to job and marital status proved to be significant, as the model's strength lies in comparing textual information rather than numerical data.
-- If you want to enhance the clustering performance on numerical data, you can consider the following modifications the above method:
+- If you want to enhance the clustering performance on numerical data, you can consider the following modifications to the above method:
 
   **Hybrid Embedding:**
   Use a combination of sentence embedding for text features and a different embedding method for numerical features.
