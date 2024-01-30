@@ -60,3 +60,4 @@ Three different methods are explored: K-Means, K-Prototype, and a combination of
 
   **Feature Engineering for Numerical Data:**
   Create additional text-based features from numerical fields. For example, instead of just "Salary = 10000," you could have "Salary is High," "Salary is Medium," "Salary is Low," etc. This way, numerical information is translated into text, making it compatible with the sentence embedding model.
+ 
